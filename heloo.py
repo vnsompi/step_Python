@@ -436,8 +436,9 @@ p1 = Person("bob", 22)
 print(p1.getAge())
 print(p1.getName())
 
-
 # class inherance 
+
+
 
 
 
