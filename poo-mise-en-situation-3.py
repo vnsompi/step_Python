@@ -25,3 +25,4 @@ chat2.SePresenter()  # Bonjour, je suis un chat et je m'appelle Garfield
 
 personne = Personne("Jean")
 personne.SePresenter()  # Bonjour, je suis une personne et je m'appelle Jean
+
