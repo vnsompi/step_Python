@@ -10,14 +10,21 @@ class Personne:
 
 # ---
 noms = []
-noms.append(input("nom de la personne 1 : "))
-noms.append(input("nom de la personne 2 : "))
-noms.append(input("nom de la personne 3 : "))
 
-l = []
+# ici il ermet de tourner en recuperant chaque nom pour obtenir jusqu'au 3 
+# mais on peut encore faire mieux
 
-for nom in noms:
-    l.append(Personne(nom))
+nombre_per =  3
+for i in range (nombre_per):
+    
 
-for p in l:
-    print(p.SePresenter())
+ list_personne = []
+# ici on boucle sur l'inscription de la personne et en le faisant on boucle 
+# en meme temps sur les la presentattion  de qhaque personne 
+for i in nombre_per:
+  nom =   noms.append(input("nom de la personne 1  " + str(i + 1) + ":"))
+  list_personne.append(Personne(nom))
+
+for person in list_personne:
+    person.SePresenter() # l'erreur se trouvait ici  par ce que la fonction se presenter a deja un print 
+    # et quand on l'ajoute encore un autre print  c'est la raison pour la quelle il affiche ça 

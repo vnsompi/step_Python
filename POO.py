@@ -98,6 +98,7 @@ class Personne:
 pon1 = Personne("jean", 43)
 pon2 = Personne("Elvis", 13)
 
+
 # utilisation 
 pon1.IsMajeur()
 pon2.IsMajeur()
@@ -136,6 +137,10 @@ Student.Sexprimer(bro)
 
 
 
-# MISE EN SITUATION 
+# PARTIES 3
+
+# les varizaable de class
+
+
 
 
